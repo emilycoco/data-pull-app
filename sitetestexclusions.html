@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+
+ 		<title> Find Exclusions </title>
+
+		<link rel="stylesheet"type="text/css"href="http://www.researchnowsurveys.com/survey/codefolder/stylesheet.css"/>
+
+
+  <SCRIPT language=Javascript>
+       <!--
+       function isNumberKey(evt)
+       {
+          var charCode = (evt.which) ? evt.which : event.keyCode;
+          if (charCode != 190 && charCode > 32 
+            && (charCode < 48 || charCode > 57))
+             return false;
+
+          return true;
+       }
+       //-->
+    </SCRIPT>
+
+
+ 
+
+	</head>
+
+
+
+
+
+	
+
+	<body>
+
+		<div class="headstyle">
+
+			<h1> Exclusions </h1>
+
+			<h4> Input mailids, panel, and date to display completes within that time period</h4>
+	
+
+
+
+
+		</div>
+			<br/>
+			<div class="central2">
+
+				<div class="central1">
+
+					<form action="http://www.researchnowsurveys.com/survey/codefolder/exclusioncheckcode.asp" 
+
+ 		method="Post" />
+
+						<label for "mailid" class="formlabel">Mailids:
+						<h6>Enter mailids separated by spaces</h6>	</label> 	
+
+						<INPUT id="mailid" onkeypress="return isNumberKey(event)" 
+           type="text" name="mailid" class="formstyle"   required>		
+
+						<br/>
+
+						<br/>
+
+						<br/>
+
+						<br/>
+
+						<br/>
+
+						<br/>
+					<label for "status" class="formlabel">Status:</label> 
+						<br/>
+						<label for "complete" class="formlabel">Complete:</label>
+
+						<input type ="radio" select name="complete" class="formlabel">
+	<br/>
+
+						<label for "screenout" class="formlabel">Screen Out:</label>
+
+						<input type ="radio" select name="screenout" class="formlabel">
+	<br/>
+
+						<label for "quotafull" class="formlabel">Quota Full:</label>
+
+						<input type ="radio" select name="quotafull" class="formlabel">
+
+
+
+
+						<br/>
+
+						<br/>
+
+						<br/>
+
+						<label for "panel" class="formlabel">Panel:</label> 
+
+						<select name="panel" class="formstyle">
+
+
+							<option value="_australia;" class="dropdownstyle">Australia</option>
+
+							<option value="_austria;" class="dropdownstyle">Austria</option>
+
+							<option value="_argentina;" class="dropdownstyle">Argentina</option>
+
+							<option value="_belgium;" class="dropdownstyle">Belgium</option>
+
+							<option value="_brazil;" class="dropdownstyle">Brazil</option>
+
+							<option value="_canada;" class="dropdownstyle">Canada</option>
+
+							<option value="_airmiles;" class="dropdownstyle">Canadian Airmiles</option>
+
+							<option value="_chile;" class="dropdownstyle">Chile</option>
+
+							<option value="_china;" class="dropdownstyle">China</option>
+
+							<option value="_czech;" class="dropdownstyle">Czech Republic</option>
+
+							<option value="_denmark;" class="dropdownstyle">Denmark</option>
+
+							<option value="_finland;" class="dropdownstyle">Finland</option>
+
+							<option value="_france;" class="dropdownstyle">France</option>
+
+							<option value="_germany;" class="dropdownstyle">Germany</option>
+
+							<option value="_dewebmiles;" class="dropdownstyle">Germany Webmiles</option>
+
+							<option value="_greece;" class="dropdownstyle">Greece</option>
+
+							<option value="_hongkong;" class="dropdownstyle">Hong Kong</option>
+
+							<option value="_hungary;" class="dropdownstyle">Hungary</option>
+
+							<option value="_india;" class="dropdownstyle">India</option>
+
+							<option value="_ireland;" class="dropdownstyle">Ireland</option>
+
+							<option value="_italy;" class="dropdownstyle">Italy</option>
+
+							<option value="_japan;" class="dropdownstyle">Japan</option>
+
+							<option value="_korea;" class="dropdownstyle">Korea</option>
+
+							<option value="_malaysia;" class="dropdownstyle">Malaysia</option>
+
+							<option value="_mexico;" class="dropdownstyle">Mexico</option>
+
+							<option value="_netherlands;" class="dropdownstyle">Netherlands</option>
+
+							<option value="_newzealand;" class="dropdownstyle">New Zealand</option>
+
+							<option value="_norway;" class="dropdownstyle">Norway</option>
+
+							<option value="_CSPPDB2;" class="dropdownstyle">Panel Partner</option>
+
+							<option value="_poland;" class="dropdownstyle">Poland</option>
+
+							<option value="_portugal;" class="dropdownstyle">Portugal</option>
+
+							<option value="_russia;" class="dropdownstyle">Russia</option>
+
+							<option value="_singapore;" class="dropdownstyle">Singapore</option>
+
+							<option value="_spain;" class="dropdownstyle">Spain</option>
+
+							<option value="_sweden;" class="dropdownstyle">Sweden</option>
+
+							<option value="_switzerland;" class="dropdownstyle">Switzerland</option>
+
+							<option value="_swwebmiles;" class="dropdownstyle">Swiss Webmiles</option>
+
+							<option value="_taiwan;" class="dropdownstyle">Taiwan</option>
+
+							<option value=";" class="dropdownstyle">UK</option>
+	
+							<option value="_usa;" class="dropdownstyle">USA</option>
+
+
+						</select>
+						<br/>
+						<br/>
+						<br/>
+						<p>
+							<h5>	Find completes between these two dates: </h5>
+		
+							<h6>(Completes recorded on the dates you select will be included in results)</h6>
+				
+						</p>
+			</div>
+
+			<div class="centralleft">
+
+
+
+				<br/>
+
+				<label for "day" class="formlabel">Day:</label> 
+
+				<select name="day" class="formstyleexclude">
+
+					<option value="01" class="dropdownstyleexclude">01</option>
+					<option value="02" class="dropdownstyleexclude">02</option>
+					<option value="03" class="dropdownstyleexclude">03</option>
+					<option value="04" class="dropdownstyleexclude">04</option>
+					<option value="05" class="dropdownstyleexclude">05</option>
+					<option value="06" class="dropdownstyleexclude">06</option>
+					<option value="07" class="dropdownstyleexclude">07</option>
+					<option value="08" class="dropdownstyleexclude">08</option>
+					<option value="09" class="dropdownstyleexclude">09</option>
+					<option value="10" class="dropdownstyleexclude">10</option>
+					<option value="11" class="dropdownstyleexclude">11</option>
+					<option value="12" class="dropdownstyleexclude">12</option>
+					<option value="13" class="dropdownstyleexclude">13</option>
+					<option value="14" class="dropdownstyleexclude">14</option>
+					<option value="15" class="dropdownstyleexclude">15</option>
+					<option value="16" class="dropdownstyleexclude">16</option>
+					<option value="17" class="dropdownstyleexclude">17</option>
+					<option value="18" class="dropdownstyleexclude">18</option>
+					<option value="19" class="dropdownstyleexclude">19</option>
+					<option value="20" class="dropdownstyleexclude">20</option>
+					<option value="21" class="dropdownstyleexclude">21</option>
+					<option value="22" class="dropdownstyleexclude">22</option>
+					<option value="23" class="dropdownstyleexclude">23</option>
+					<option value="24" class="dropdownstyleexclude">24</option>
+					<option value="25" class="dropdownstyleexclude">25</option>
+					<option value="26" class="dropdownstyleexclude">26</option>
+					<option value="27" class="dropdownstyleexclude">27</option>
+					<option value="28" class="dropdownstyleexclude">28</option>
+					<option value="29" class="dropdownstyleexclude">29</option>
+					<option value="30" class="dropdownstyleexclude">30</option>
+					<option value="31" class="dropdownstyleexclude">31</option>
+
+				</select>
+
+				<br/>
+				<br/>
+
+				<label for "month" class="formlabel">Month:</label> 
+
+				<select name="month" class="formstyleexclude">
+
+
+					<option value="01" class="dropdownstyleexclude">January</option>
+					<option value="02" class="dropdownstyleexclude">February</option>
+					<option value="03" class="dropdownstyleexclude">March</option>
+					<option value="04" class="dropdownstyleexclude">April</option>
+					<option value="05" class="dropdownstyleexclude">May</option>
+					<option value="06" class="dropdownstyleexclude">June</option>
+					<option value="07" class="dropdownstyleexclude">July</option>
+					<option value="08" class="dropdownstyleexclude">August</option>
+					<option value="09" class="dropdownstyleexclude">September</option>
+					<option value="10" class="dropdownstyleexclude">October</option>
+					<option value="11" class="dropdownstyleexclude">November</option>
+					<option value="12" class="dropdownstyleexclude">December</option>
+
+				</select>
+
+				<br/>
+				<br/>
+
+				<label for "year" class="formlabel">Year:</label> 
+
+				<select name="year" class="formstyleexclude">
+
+
+
+					<option value="2013" class="dropdownstyleexclude">2013</option>
+					<option value="2012" class="dropdownstyleexclude">2012</option>
+					<option value="2011" class="dropdownstyleexclude">2011</option>
+					<option value="2010" class="dropdownstyleexclude">2010</option>
+
+				</select>
+			</div>
+			<div class="centralright">
+
+				<br/>
+
+
+				<label for "day" class="formlabel">Day:</label> 
+
+	   			<select name="day2" class="formstyleexclude">
+
+					<option value="01" class="dropdownstyleexclude">01</option>
+					<option value="02" class="dropdownstyleexclude">02</option>
+					<option value="03" class="dropdownstyleexclude">03</option>
+					<option value="04" class="dropdownstyleexclude">04</option>
+					<option value="05" class="dropdownstyleexclude">05</option>
+					<option value="06" class="dropdownstyleexclude">06</option>
+					<option value="07" class="dropdownstyleexclude">07</option>
+					<option value="08" class="dropdownstyleexclude">08</option>
+					<option value="09" class="dropdownstyleexclude">09</option>
+					<option value="10" class="dropdownstyleexclude">10</option>
+					<option value="11" class="dropdownstyleexclude">11</option>
+					<option value="12" class="dropdownstyleexclude">12</option>
+					<option value="13" class="dropdownstyleexclude">13</option>
+					<option value="14" class="dropdownstyleexclude">14</option>
+					<option value="15" class="dropdownstyleexclude">15</option>
+					<option value="16" class="dropdownstyleexclude">16</option>
+					<option value="17" class="dropdownstyleexclude">17</option>
+					<option value="18" class="dropdownstyleexclude">18</option>
+					<option value="19" class="dropdownstyleexclude">19</option>
+					<option value="20" class="dropdownstyleexclude">20</option>
+					<option value="21" class="dropdownstyleexclude">21</option>
+					<option value="22" class="dropdownstyleexclude">22</option>
+					<option value="23" class="dropdownstyleexclude">23</option>
+					<option value="24" class="dropdownstyleexclude">24</option>
+					<option value="25" class="dropdownstyleexclude">25</option>
+					<option value="26" class="dropdownstyleexclude">26</option>
+					<option value="27" class="dropdownstyleexclude">27</option>
+					<option value="28" class="dropdownstyleexclude">28</option>
+					<option value="29" class="dropdownstyleexclude">29</option>
+					<option value="30" class="dropdownstyleexclude">30</option>
+					<option value="31" class="dropdownstyleexclude">31</option>
+
+				</select>
+				<br/>
+				<br/>
+
+				<label for "month" class="formlabel">Month:</label> 
+
+				<select name="month2" class="formstyleexclude">
+
+
+	
+					<option value="01" class="dropdownstyleexclude">January</option>
+					<option value="02" class="dropdownstyleexclude">February</option>
+					<option value="03" class="dropdownstyleexclude">March</option>
+					<option value="04" class="dropdownstyleexclude">April</option>
+					<option value="05" class="dropdownstyleexclude">May</option>
+					<option value="06" class="dropdownstyleexclude">June</option>
+					<option value="07" class="dropdownstyleexclude">July</option>
+					<option value="08" class="dropdownstyleexclude">August</option>
+					<option value="09" class="dropdownstyleexclude">September</option>
+					<option value="10" class="dropdownstyleexclude">October</option>
+					<option value="11" class="dropdownstyleexclude">November</option>
+					<option value="12" class="dropdownstyleexclude">December</option>	
+
+				</select>
+				<br/>
+				<br/>
+
+				<label for "year" class="formlabel">Year:</label> 
+
+				<select name="year2" class="formstyleexclude">
+
+
+
+					<option value="2013" class="dropdownstyleexclude">2013</option>
+					<option value="2012" class="dropdownstyleexclude">2012</option>
+					<option value="2011" class="dropdownstyleexclude">2011</option>
+					<option value="2010" class="dropdownstyleexclude">2010</option>
+
+				</select>
+			</div>
+
+			<div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+ 				<input type="submit" class="buttonside" value="Enter" > 
+
+			</div>
+		</form>
+	</div>
+	</div>
+
+</body>
+
